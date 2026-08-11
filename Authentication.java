@@ -4,7 +4,7 @@ public class Authentication {
 
     public static boolean authenticate(String email, String password) {
 
-        String correctEmail = "user@gmail.com";
+        String correctEmail = "user@gmaiml.com";
         String correctPassword = "123456";
 
         return email.equals(correctEmail)
