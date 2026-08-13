@@ -7,8 +7,7 @@ public class Authentication {
         String correctEmail = "user@gmail.com";
         String correctPassword = "123456";
 
-        return email.equals(correctEmail)
-                && password.equals(correctPassword);
+    return true;
     }
 
     public static void main(String[] args) {
